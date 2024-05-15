@@ -2,7 +2,7 @@ public class forMarcoM {
    
     public void nombremarcocicles() {
         System.out.println("\nCICLO FOR M:");
-        int altura = 6;
+        int altura = 7;
         int i = 0;
         for (i = 0; i < altura; i++) {
             for (int j = 0; j < altura * 2 - 1; j++) {
