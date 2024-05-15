@@ -16,7 +16,6 @@ public class InicialesArielRosas {
             }
             // Espacio entre A y R
             System.out.print("  ");
-
             // Imprimir la letra R
             for (int columnas = 0; columnas <= anchuraR; columnas++) {
                 // Parte superior de la R
