@@ -1,6 +1,43 @@
+
+import ArielRosas.DoWhileSeriesAriel;
+import ArielRosas.ForSeriesAriel;
+import ArielRosas.InicialesArielRosas;
+import ArielRosas.WhileSeriesAriel;
+import MarcoRios.forMarcoM;
+import MarcoRios.forMarcoRiosMR;
+import MarcoRios.forRiosR;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Iniciales Katherine Sanchez");
+        System.out.println("\nIniciales Marco Rios:");
+        forMarcoM nombremarco = new forMarcoM();
+        nombremarco.nombremarcocicles();
+        forRiosR apellidorios = new forRiosR();
+        apellidorios.apellidorioscicles();
+        forMarcoRiosMR nombreapellidomarco = new forMarcoRiosMR();
+        nombreapellidomarco.marcorioscicles();
+
+        ForSeriesAriel fs = new ForSeriesAriel();
+        WhileSeriesAriel ws = new WhileSeriesAriel();
+        DoWhileSeriesAriel dw = new DoWhileSeriesAriel();
+        InicialesArielRosas ia = new InicialesArielRosas();
+
+        System.out.println("Letra A y R");
+        ia.imprimirAR();
+        System.out.println("Ciclos For");
+        System.out.println("Letra A");
+        fs.imprimirA();
+        System.out.println("Letra R");
+        fs.imprimirR();
+        System.out.println("");
+        System.out.println("Ciclos DoWhile");
+        dw.imprimirA();
+        dw.imprimirR();
+        System.out.println("");
+        System.out.println("Ciclos While");
+        ws.imprimirA();
+        ws.imprimirR();
+                System.out.println("Iniciales Katherine Sanchez");
         ForNombreK fk = new ForNombreK(); 
         ForApellidoS fs = new ForApellidoS();
         ForNombreApellidoKS fks = new ForNombreApellidoKS();
@@ -20,8 +57,7 @@ public class App {
         dk.contador();
         ds.contador();
         dks.contador();
+
+
     }
 }
-
-
-
