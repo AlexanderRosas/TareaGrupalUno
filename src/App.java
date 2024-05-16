@@ -1,3 +1,8 @@
+import ArielRosas.DoWhileSeriesAriel;
+import ArielRosas.ForSeriesAriel;
+import ArielRosas.InicialesArielRosas;
+import ArielRosas.WhileSeriesAriel;
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("\nIniciales Marco Rios:");

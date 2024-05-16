@@ -1,3 +1,4 @@
+package ArielRosas;
 public class InicialesArielRosas {
     public void imprimirAR() {
         System.out.println("Iniciales Ariel Rosas");

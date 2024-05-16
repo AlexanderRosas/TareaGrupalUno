@@ -1,29 +1,39 @@
-public class ForSeriesAriel {
+package ArielRosas;
+public class WhileSeriesAriel {
     public void imprimirA(){
-        for (int filas = 0; filas < 10; filas++) {
-            for (int columnas = 0; columnas <= 5; columnas++) {
-                if (columnas == 0 || columnas == 5 || filas == 0 || (filas == 10 / 2 && columnas < 5)) {
+        int filas = 0;
+        while (filas < 10) {
+            int columnas = 0;
+            while (columnas <= 5) {
+                if (columnas == 0 || columnas == 5 || filas == 0 || filas == 5) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
+                columnas++;
             }
             System.out.println();
+            filas++;
         }
         System.out.println("");
     }
     public void imprimirR(){
-        for (int filas = 0; filas < 10; filas++){
-            for (int columnas = 0; columnas <= 5; columnas++) {
+        int filas = 0;
+        while (filas < 10) {
+            int columnas = 0;
+            while (columnas <= 5) {
                 if (columnas == 0 || (columnas == 5 && filas <=5 ) || filas == 0 || filas == 5 || (filas>5 && filas == columnas+4)) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
+                columnas++;
             }
             System.out.println();
-       }
-       System.out.println("");
+            filas++;
+        }
+        System.out.println("");
     }
+
 }
 
