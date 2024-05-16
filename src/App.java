@@ -2,6 +2,9 @@ import ArielRosas.DoWhileSeriesAriel;
 import ArielRosas.ForSeriesAriel;
 import ArielRosas.InicialesArielRosas;
 import ArielRosas.WhileSeriesAriel;
+import MarcoRios.forMarcoM;
+import MarcoRios.forMarcoRiosMR;
+import MarcoRios.forRiosR;
 
 public class App {
     public static void main(String[] args) throws Exception {

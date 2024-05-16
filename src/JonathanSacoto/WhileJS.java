@@ -1,3 +1,4 @@
+package JonathanSacoto;
 public class WhileJS {
     public void imprimirJSW(){
         int i = 0;

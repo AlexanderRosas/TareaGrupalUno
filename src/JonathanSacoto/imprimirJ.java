@@ -1,3 +1,4 @@
+package JonathanSacoto;
 public class imprimirJ {
     public void imprimirJDoWhile(){
         int contador = 0;

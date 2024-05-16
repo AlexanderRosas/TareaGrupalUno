@@ -1,3 +1,4 @@
+package JonathanSacoto;
 public class ForSeriesJonathanJS {
     public void imprimirJS(){
         System.out.print("");

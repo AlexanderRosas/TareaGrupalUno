@@ -1,12 +1,13 @@
-public class forRiosR {
+package MarcoRios;
+public class forMarcoM {
    
-    public void apellidorioscicles() {
-        System.out.println("\nCICLO FOR R:");
+    public void nombremarcocicles() {
+        System.out.println("\nCICLO FOR M:");
         int altura = 7;
         int i = 0;
         for (i = 0; i < altura; i++) {
             for (int j = 0; j < altura * 2 - 1; j++) {
-                if (j == 0 || (i == 0 && j < altura - 1) || (i == altura / 2 && j < altura - 1) || (j == altura - 1 && i > 0 && i < altura / 2) || (i == j && j >= altura - 1) || (i + j == altura - 1 && j > altura - 1)) {
+                if (j == 0 || j == altura * 2 - 2 || (i == j / 2 && j <= altura) || (i + j == altura * 2 - 3 && j >= altura)) {
                     System.out.print("x");
                 } else {
                     System.out.print(" ");
@@ -15,12 +16,12 @@ public class forRiosR {
             System.out.println();
         }
 
-        System.out.println("\nCICLO DO WHILE R:");
+        System.out.println("\nCICLO DO WHILE M:");
         i = 0;
         do {
             int j = 0;
             while (j < altura * 2 - 1) {
-                if (j == 0 || (i == 0 && j < altura - 1) || (i == altura / 2 && j < altura - 1) || (j == altura - 1 && i > 0 && i < altura / 2) || (i == j && j >= altura - 1) || (i + j == altura - 1 && j > altura - 1)) {
+                if (j == 0 || j == altura * 2 - 2 || (i == j / 2 && j <= altura) || (i + j == altura * 2 - 3 && j >= altura)) {
                     System.out.print("x");
                 } else {
                     System.out.print(" ");
@@ -31,12 +32,12 @@ public class forRiosR {
             i++;
         } while (i < altura);   
 
-        System.out.println("\nCICLO WHILE R:");
+        System.out.println("\nCICLO WHILE M:");
         i = 0;
         while (i < altura) {
             int j = 0;
             while (j < altura * 2 - 1) {
-                if (j == 0 || (i == 0 && j < altura - 1) || (i == altura / 2 && j < altura - 1) || (j == altura - 1 && i > 0 && i < altura / 2) || (i == j && j >= altura - 1) || (i + j == altura - 1 && j > altura - 1)) {
+                if (j == 0 || j == altura * 2 - 2 || (i == j / 2 && j <= altura) || (i + j == altura * 2 - 3 && j >= altura)) {
                     System.out.print("x");
                 } else {
                     System.out.print(" ");

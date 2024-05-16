@@ -1,3 +1,4 @@
+package JonathanSacoto;
 public class ForSeriesJonathan {
     public void imprimirJ(){
         System.out.print("");

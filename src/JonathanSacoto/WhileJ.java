@@ -1,3 +1,4 @@
+package JonathanSacoto;
 public class WhileJ {
     public void imprimirJW(){
         int i = 0;
