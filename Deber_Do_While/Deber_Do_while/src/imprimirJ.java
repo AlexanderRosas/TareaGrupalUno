@@ -4,6 +4,8 @@ public class imprimirJ {
 
         do {
             System.out.println("J");
+            System.out.println("S");
+            System.out.println("JS");
             contador ++;
             
         } while (contador == 10);
